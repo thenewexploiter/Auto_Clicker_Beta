@@ -14,3 +14,5 @@ pip install pynput
 ```
 
 And Download A File And Enjoy :)
+
+[Download Auto Clicker!](https://raw.githubusercontent.com/thenewexploiter/Auto_Clicker_Beta/main/main.py)
