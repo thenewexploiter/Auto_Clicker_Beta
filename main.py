@@ -12,6 +12,8 @@ print(" ")
 print("The Start Stop Key: R")
 print("Exit Key: M")
 print("Made By: " + __author__)
+print(" ")
+print("Output:")
 
 import time
 import threading
@@ -33,9 +35,11 @@ class ClickMouse(threading.Thread):
 
     def start_clicking(self):
         self.running = True
+        print("Auto Clicker: On")
 
     def stop_clicking(self):
         self.running = False
+        print("Auto Clicker: Off")
 
     def exit(self):
         self.stop_clicking()
